@@ -1,0 +1,221 @@
+
+body{
+    margin: 0;
+    font-family: system-ui;
+}
+
+.parallax{
+    background-image: url('download.jpg');
+    height:max-content;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-title{
+
+    text-align: center;
+    color: white;
+    padding: 50px;
+     font-variant: small-caps;
+     font-size: 100px;
+     font-family: fantasy;
+   
+}
+
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.menu{
+background-color: #184d47;
+text-align: center;
+}
+
+.menu-ul{
+  display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-ul li{
+    font-size: 17px;
+    list-style: none;
+    display:inline-block;
+    padding: 25px 25px 26px 25px;
+ 
+ }
+
+ .a-menu{
+    color: white;
+ }
+
+ .menu-ul li:hover{
+    background-color: #a4e2db;
+    transform: scale(1.1);
+ }
+
+ .serch-box{
+    border: 1px solid white;
+    border-radius: 50px;
+    background-color: white;
+    width: max-content;
+    display: inline-block;
+    margin: 8px;
+    padding: 5px;
+ }
+
+ .serch-box:hover{
+    box-shadow: 0 0 10px 2px #5b8c5a;
+    border: 1px solid #5b8c5a;
+ }
+
+ .serch-input{
+    width: 250px;
+    border: none;
+   outline: none;
+
+ }
+ i{
+    font-size: 20px;
+    margin: 3px;
+ }
+ button{
+    border: none;
+    outline: none;
+    background-color: white;
+ }
+
+ .container{
+   margin: 50px 50px 50px 5%;
+   width: 90%;
+   text-align: center;
+ }
+ .catigoris, .items{
+   width: max-content;
+   margin: 25px;
+   border: 1px solid #184d47;
+   border-radius: 0 0 50px 50px;
+   display: inline-block;
+ }
+
+ .catigoris:hover, .items{
+   box-shadow: 0 0 10px 3px #184d47;
+ }
+
+ .item-image{
+   height: 200px;
+   width: 200px;
+   border-radius: 0 0 50px 50px;
+   padding: 10px;
+ }
+ .image-table{
+   text-align: center;
+   font-weight: bold;
+   padding: 10px;
+ }
+ a{
+   text-decoration: none;
+ }
+ .title{
+  padding: 50px;
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: 10px; 
+  color: white;
+  background-color: rgba(0,0,0,0,5);
+ }
+ .deal{
+   padding: 50px;
+   font-size: 20px;
+   font-weight: bold;
+   color: rgb(10, 8, 8);
+   display: inline-block;
+   margin: 20px;
+   max-width: 20%;
+   background: linear-gradient(120deg, #16817a 20%, #cee397 50%,#16817a 80%);
+ }
+ .coupon{
+   border: 1px solid;
+   color: white ;
+   padding: 10px;
+   margin: 10px;
+   border-radius: 20px;
+ }
+ .coupon:hover{
+  box-shadow: 0 0 10px 5px white inset;
+ }
+
+
+
+ .image{
+  display: inline-block;
+ }
+ .item-image-size{
+  height: 200px;
+  width: 300px;
+  padding:5px;
+  border-radius: 0 0 50px 50px;
+ }
+ .description{
+  margin: 20px;
+  min-height: 100px;
+ }
+ .item-select{
+  margin: 10px 0 0 0;
+ }
+
+ .buynow{
+  border: 1px solid #184d47;
+  padding: 15px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: rgb(228, 82, 82);
+ }
+ .buynow:hover{
+  border:1px solid #5b8c5a;
+  background-color: #184d47;
+  box-shadow: 0 0 10px 5px;
+ }
+ .parallaxdomahik{
+  background-color: #dbe7e6;
+ }
+ .footer{
+  background-color: rgba(#0d0e0e);
+  text-align: center;
+  color: rgb(133, 133, 43);
+  padding: 20px;
+ }
+ .quick-links{
+
+color: rgb(58, 41, 41);
+font-size: 20px;
+font-weight: bold;
+display: inline-block;
+min-width: 30%;
+ }
+ .quick-links ul{
+  padding:0;
+ }
+ .quick-links li{
+  list-style: none;
+  padding: 10px;
+  font-weight: 300;
+  color: white;
+ }
+ a.a-links:hover{
+  font-weight: bold;
+  color: #0a0c0c;
+  text-shadow: red;
+ }
+ .copyrights{
+  font-size: 16px;
+  font-family: verdana, Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 15px;
+  font-weight: bolder;
+ }
